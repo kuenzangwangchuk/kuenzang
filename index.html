@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12220044</title>
+</head>
+
+<body>
+    <header></header>
+    <div>
+        <label for="nameBox">Name:</label>
+        <input placeholder="Full Name">
+        
+    </div>
+<br/>
+    <div>
+        <label for="phoneBox">Phone:</label>
+        <input type="tel" id="phoneBox" name="stdPhone" pattern="[0-9]{8}"
+        title="should have 8 digit">
+    </div>
+<br/>
+    
+    <div>
+        <label for="emailBox">Enter your email:</label>
+        <input type="email" id="emailBox" name="stdemail"
+        placeholder="Kinley@example.com" required>
+    </div>
+<br/>
+    <div>
+        <label for="bdBox">DOB:</label>
+        <input type="date" id="bdBox" name="stdBd">
+    </div>
+<br/>
+    <div>
+        <label for="atBox">Arriving Time:</label>
+        <input type="time" id="atBox" name="stdAt">
+    </div>
+<br/>
+    <div>
+        <label for="rangeBox">Rate GCIT (0=poor; 10=great) : </label>
+        0
+        <input name="stdRate" id="rangeBox" type="range" value="5" step="1" min="0"
+        max="10" />
+    </div>
+<br/>
+    <div >
+        <label>Gender:</label>
+        <fieldset>
+        <label for="maleBox">Male</label>
+        <input name="stdGender" id="maleBox" value="Male" type="radio" />
+        <label for="femaleBox">Female</label>
+        <input name="stdGender" id="femaleBox" value="Female"
+        type="radio" />
+        </fieldset>
+    </div>
+<br/>
+    <div>
+        <label for="courseBox">Course:</label>
+        <select id="courseBox" name="courseList" form="course">
+        <option value="Full Stack">Full Stack</option>
+        <option value="BlockChain">Block Chain</option>
+        <option value="AI and ML">AI and ML</option>
+        <option value="Media Development">Media Developement</option>
+        </select>
+     </div>
+        
+        
+
+    
+
+    
+    <footer></footer>
+    
+</body>
+</html>
